@@ -1,17 +1,23 @@
-# ob1
+﻿# ob1
 دریافت اطلاعات بورس تهران
 
-Open Bourse One (OB1)
-=====================
-The project is web scrapingTehran Stock Exchange information by a program written in Python language.
-This project started by Majid Dehghan Nasiri at madjidnasiri@gmail.com
+هدف
+===
+هدف این برنامه دریافت اطلاعات از سایت بورس تهران توسط یک برنامه به زبان پایتون و تحلیل آنها است.
 
-Directory
+نام گذاری
+======
+ob1 مخفف Open Bourse 1 است و البته یادی از قهرمانی های اوبی وان کنوبی است هر چند اسم او به صورت obi-wan نوشته می‌شود!
+
+تاریخچه
+=====
+این برنامه در سال خرداد 1398 (2019) توسط مجید دهقان نصیری madjidnasiri@gmail.com شروع شد
+
+پوشه ها
 =========
-docs: Documents
-
+docs: پوشه داکیومنتها
 
 Files
 =====
 ReadSymbol.py 
-    reading symbole from site tsetmc.com
+	این فایل جهت خواندن نمادها از سایت www.tsetmc.com نوشته شده است

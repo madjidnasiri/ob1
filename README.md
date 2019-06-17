@@ -19,5 +19,4 @@ docs: پوشه داکیومنتها
 
 Files
 =====
-ReadSymbol.py 
-	این فایل جهت خواندن نمادها از سایت www.tsetmc.com نوشته شده است
+ReadSymbol.py: این فایل جهت خواندن نمادها از سایت www.tsetmc.com نوشته شده است

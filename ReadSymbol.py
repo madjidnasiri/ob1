@@ -6,6 +6,7 @@ import requests
 import gzip
 import bs4
 import time
+import datetime
 
 startTime = time.time()
 
@@ -50,7 +51,9 @@ for item in data:
         print('Error in loading symbol "{}"'.format(item['code']))
     
     c = c + 1
+    if c // 3: 
+        break
 
 doneTime = time.time()
 elapsedTime = doneTime - startTime
-print('Elapsed Time {}'.format(elapsedTime))
+print('Elapsed Time {0}'.format(datetime.timedelta(elapsedTime)))

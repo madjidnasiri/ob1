@@ -51,8 +51,6 @@ for item in data:
         print('Error in loading symbol "{}"'.format(item['code']))
     
     c = c + 1
-    if c // 3: 
-        break
 
 doneTime = time.time()
 elapsedTime = doneTime - startTime
